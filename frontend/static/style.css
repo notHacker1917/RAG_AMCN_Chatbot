@@ -1,0 +1,4 @@
+body { font-family: system-ui, -apple-system, sans-serif; max-width: 720px;
+       margin: 4rem auto; padding: 0 1rem; line-height: 1.5; color: #222; }
+header { border-left: 4px solid #5b8def; padding-left: 1rem; }
+pre { background: #f4f6fb; padding: .75rem 1rem; border-radius: 6px; }
