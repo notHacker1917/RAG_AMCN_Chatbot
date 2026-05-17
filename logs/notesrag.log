@@ -1,0 +1,12 @@
+[2026-05-15 09:26:22] INFO    rag_pipeline.vector_store :: No existing FAISS index found — will start empty.
+[2026-05-15 09:26:22] INFO    rag_pipeline.vector_store :: No existing FAISS index found — will start empty.
+[2026-05-15 09:26:23] INFO    rag_pipeline.vector_store :: No existing FAISS index found — will start empty.
+[2026-05-15 09:26:23] INFO    api :: Flask app created.
+[2026-05-15 09:26:23] INFO    __main__ :: Bootstrapping NotesRAG-Chatbot …
+[2026-05-15 09:26:23] INFO    database.session :: Creating database schema (if missing)…
+[2026-05-15 09:49:06] INFO    rag_pipeline.vector_store :: No existing FAISS index found — will start empty.
+[2026-05-15 09:49:06] INFO    rag_pipeline.vector_store :: No existing FAISS index found — will start empty.
+[2026-05-15 09:49:07] INFO    rag_pipeline.vector_store :: No existing FAISS index found — will start empty.
+[2026-05-15 19:55:58] INFO    database.session :: Creating database schema (if missing)…
+[2026-05-15 19:55:58] INFO    database.session :: Schema ready.
+[2026-05-15 19:55:58] INFO    data_ingestion.pipeline :: Using loader 'pdf' for 'storage/raw_files/exam/Amcn_doc.pdf' (content_type=exam)

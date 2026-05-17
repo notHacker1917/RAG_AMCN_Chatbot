@@ -1,0 +1,11 @@
+[
+  "tests/test_api_health.py::test_health",
+  "tests/test_api_health.py::test_index_lists_endpoints",
+  "tests/test_chunker.py::test_basic_chunking_produces_overlap",
+  "tests/test_chunker.py::test_chunks_carry_metadata",
+  "tests/test_chunker.py::test_empty_text",
+  "tests/test_database_models.py::test_full_hierarchy_roundtrip",
+  "tests/test_mpc_sharing.py::test_scalar_share_roundtrip",
+  "tests/test_mpc_sharing.py::test_vector_share_roundtrip",
+  "tests/test_text_cleaning.py::test_collapses_whitespace_and_newlines"
+]
