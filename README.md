@@ -374,8 +374,6 @@ Tests cover:
 - MPC secret-sharing round-trip.
 - Flask `/health` and `/` endpoints.
 
-The Anthropic SDK and the embedding model are **not** required to run the test suite (they're lazy-loaded).
-
 ---
 
 ## 🖼 Screenshots
@@ -387,34 +385,8 @@ The Anthropic SDK and the embedding model are **not** required to run the test s
 - `docs/screenshots/browse.png` — Hierarchy browser
 - `docs/screenshots/mpc.png` — MPC-mode query
 
----
-
-## 🛠 Example Workflow
-
-```bash
-# 1. Boot backend
-python app.py
-
-# 2. Ingest a PDF
-curl -F "file=@lecture3.pdf" \
-     -F "subject=Operating Systems" \
-     -F "unit=Processes" \
-     -F "topic=Scheduling" \
-     -F "subtopic=Round Robin" \
-     -F "tags=cpu,rr" \
-     http://localhost:5000/upload
-
-# 3. Ask a question
-curl -X POST http://localhost:5000/query \
-     -H 'Content-Type: application/json' \
-     -d '{"query":"Why does RR with very small quantum perform poorly?"}'
-```
-
----
-
 ## 🔭 Future Improvements
 
-- **Streaming responses** via Anthropic's `messages.stream`.
 - Swap FAISS Flat → HNSW once corpus > 100k chunks.
 - Real MPC backend: integrate **PySyft** or **MP-SPDZ** behind the existing `secure_query()` interface.
 - Per-user namespaces & auth (JWT).
@@ -423,8 +395,4 @@ curl -X POST http://localhost:5000/query \
 - Multi-modal notes (images, equations via LaTeX parsing).
 - Re-rankers (e.g., `bge-reranker-large`) on top of top_k FAISS candidates.
 
----
 
-## 📜 License
-
-MIT — see `LICENSE` (not included).
