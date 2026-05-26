@@ -16,7 +16,7 @@ A production-ready, Python-only **Retrieval-Augmented Generation (RAG)** chatbot
 - Solid engineering hygiene: pydantic-settings config, structured logging, type hints, docstrings, modular blueprints, validation, retries, tests.
 
 ---
-
+ 
 ## 🏗 Architecture
 
 ```
