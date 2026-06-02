@@ -1,7 +1,7 @@
 # 📚 NotesRAG-Chatbot
  
 A production-ready, Python-only **Retrieval-Augmented Generation (RAG)** chatbot for structured academic notes — powered by **Anthropic Claude**, **FAISS**, and **SentenceTransformers**, with a Flask backend and a Streamlit frontend, plus a basic **Multi-Party Computation (MPC)** module for privacy-preserving query simulation.
-
+ 
 ---
 
 ## ✨ Features 
