@@ -17,7 +17,7 @@ A production-ready, Python-only **Retrieval-Augmented Generation (RAG)** chatbot
 
 ---
  
-## 🏗 Architecture
+## 🏗 Architecture 
 
 ```
                      ┌─────────────────────────────────────────┐
