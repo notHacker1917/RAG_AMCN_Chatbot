@@ -19,7 +19,7 @@ from database.session import init_db
 from utils.logger import get_logger
 
 logger = get_logger(__name__)
-
+ 
 app = create_app()
 
 
