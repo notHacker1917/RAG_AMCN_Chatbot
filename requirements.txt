@@ -12,7 +12,7 @@ streamlit==1.37.0
 requests==2.32.3
 
 # Database
-SQLAlchemy==2.0.31
+SQLAlchemy==2.0.31 
 psycopg2-binary==2.9.9
 alembic==1.13.2
 pymongo==4.8.0
