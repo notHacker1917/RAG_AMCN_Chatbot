@@ -5,7 +5,7 @@ import os
 from typing import Any
 
 from utils.hashing import sha256_file
-from utils.logger import get_logger
+from utils.logger import get_logger 
 from utils.text_cleaning import clean_text
 
 from .base import IngestedDocument, IngestedSection
