@@ -6,7 +6,7 @@ from urllib.parse import urlparse
 
 import requests
 from bs4 import BeautifulSoup
-
+ 
 from utils.hashing import sha256_text
 from utils.logger import get_logger
 from utils.text_cleaning import clean_text
