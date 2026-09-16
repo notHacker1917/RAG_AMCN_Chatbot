@@ -13,7 +13,7 @@ Usage
 from __future__ import annotations
 
 import os
-
+ 
 from api import create_app
 from database.session import init_db
 from utils.logger import get_logger
