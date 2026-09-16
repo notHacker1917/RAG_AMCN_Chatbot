@@ -25,7 +25,7 @@ from utils.text_cleaning import clean_text
 from .base import IngestedDocument, IngestedSection
 
 logger = get_logger(__name__)
-
+ 
 # Pages with fewer than this many non-whitespace chars get OCR'd
 _OCR_TRIGGER_CHARS = 40
 
