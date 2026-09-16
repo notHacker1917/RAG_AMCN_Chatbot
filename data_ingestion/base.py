@@ -4,7 +4,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Protocol
 
-
+ 
 @dataclass
 class IngestedSection:
     """A hierarchically-located block of text extracted from a document."""
