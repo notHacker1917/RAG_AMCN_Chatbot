@@ -7,7 +7,7 @@ A production-ready, Python-only **Retrieval-Augmented Generation (RAG)** chatbot
 ## ✨ Features 
   
 - Ingest **PDF / DOCX / URL / OneNote-JSON** notes into a hierarchical database (*Subject → Unit → Topic → Subtopic → Note*).
-- Token-aware overlapping **chunking** with metadata preservation.
+- Token-aware overlapping **chunking** with metadata preservation. 
 - Local-first **FAISS** vector store using normalised `bge-large-en-v1.5` embeddings.
 - **Claude API** answer generation with retrieval-grounded prompt templates.
 - REST API (Flask blueprints) — upload, query, search, browse.
