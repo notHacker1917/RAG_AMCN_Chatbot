@@ -26,7 +26,7 @@ from database.repository import (
     get_or_create_unit,
 )
 from database.session import get_session
-from utils.hashing import sha256_text
+from utils.hashing import sha256_text 
 from utils.logger import get_logger
 
 from .base import IngestedDocument, Loader
