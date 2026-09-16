@@ -9,7 +9,7 @@ gunicorn==22.0.0
 
 # Frontend
 streamlit==1.37.0
-requests==2.32.3
+requests==2.32.3 
 
 # Database
 SQLAlchemy==2.0.31 
