@@ -13,7 +13,7 @@ Build a production-grade Python service that:
 3. **Retrieves** relevant chunks intelligently for any natural-language question.
 4. **Generates** grounded answers via the Anthropic Claude API.
 5. Exposes everything through a **Flask REST API** and a **Streamlit chat UI**.
-6. Includes a basic **Multi-Party Computation (MPC)** module for privacy-preserving retrieval.
+6. Includes a basic **Multi-Party Computation (MPC)** module for privacy-preserving retrieval. 
 
 ---
 
