@@ -6,7 +6,7 @@ from sqlalchemy import create_engine, text
 # Test in-memory database directly
 try:
     print("Testing SQLite in-memory database...")
-    engine = create_engine("sqlite:///:memory:", echo=False, future=True, connect_args={"check_same_thread": False})
+    engine = create_engine("sqlite:///:memory:", echo=False, future=True, connect_args={"check_same_thread": False}) 
     
     with engine.connect() as conn:
         conn.execute(text("CREATE TABLE test (id INTEGER PRIMARY KEY, name TEXT)"))
